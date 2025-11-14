@@ -1,0 +1,24 @@
+{
+  "name": "mydaohang",
+  "compatibility_date": "2025-01-01",
+  "main": "dist/navihive/index.js",
+  "assets": {
+    "directory": "dist/client",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    // 认证配置
+    "AUTH_ENABLED": "true",
+    "AUTH_REQUIRED_FOR_READ": "false",
+    "AUTH_USERNAME": "adminTR",
+    "AUTH_PASSWORD": "8199",
+    "AUTH_SECRET": "navihive-test-secret-2025"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "navihive-test-db",
+      "database_id": "ac378e40-492a-4555-8f76-6f88992b649a"
+    }
+  ]
+}
